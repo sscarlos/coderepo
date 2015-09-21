@@ -1,0 +1,36 @@
+<section class="page">
+	<ul id="preslist">
+		<li>
+			<li class="search">
+				<h2>Search</h2>
+				<input ng-model="query" class="fullwidth" placeholder="search for presidents" autofocus>
+				
+				<label>
+					by:
+					<select ng-model="presOrder">
+						<option value="name" checked="checked">Name</option>
+						<option value="reknown">Reknown</option>
+					</select>
+				</label>
+				<label>
+					<input type="radio" ng-model="direction" name="direction" checked="checked">
+					ascending
+				</label> &nbsp 
+				<label>
+					<input type="radio" ng-model="direction" name="direction" value="reverse">
+					descending
+				</label>
+			</li>
+		</li>
+		<li ng-repeat="item in presidents | filter:query | orderBy:presOrder:direction" class="clearfix">
+			<a href="#/details/{{presidents.indexOf(item)}}">
+				<img ng-src="_assets/images/{{item.shortname}}.jpg" class="presPic">
+				<div class="presDeets">
+					<h2 class="name">{{item.name}}</h2>
+					<p class="reknown">{{item.reknown}}</p>
+					<!-- <p>{{item.bio}}</p> -->
+				</div>
+			</a>
+		</li>
+	</ul>
+</section>

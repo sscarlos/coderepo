@@ -1,0 +1,32 @@
+[
+  {
+    "name" : "Jimmy Carter",
+    "shortname" : "carter",
+    "reknown" : "Piece in the Middle East",
+    "bio" : "Repellendus porro eius quidem nihil. Aliquid cum labore quisquam. Iste voluptatum labore."
+  },
+  {
+    "name" : "Ronald Reagan",
+    "shortname" : "reagan",
+    "reknown" : "Reaganomics",
+    "bio" : "Dignissimos fugiat, aut iste voluptatum labore aliquid molestiae pariatur sapiente ullam."
+  },
+  {
+    "name" : "Bill Clinton",
+    "shortname" : "bill",
+    "reknown" : "Monica Lowinski",
+    "bio" : "Voluptates autem quasi perferendis placeat accusamus, totam sit odio modi magni."
+  },
+  {
+    "name" : "Barack Obama",
+    "shortname" : "barack",
+    "reknown" : "Muslim Power",
+    "bio" : "Numquam culpa eius beatae libero itaque reiciendis aut placeat assumenda optio eaque."
+  },
+  {
+    "name" : "Hillary Clinton",
+    "shortname" : "hillary",
+    "reknown" : "Bill Clinton's Wife",
+    "bio" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  }
+]

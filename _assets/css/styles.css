@@ -1,0 +1,68 @@
+/*		global styles		*/
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #555;
+}
+
+h2 {
+	margin:0 0 .3em 0;
+}
+
+/*		pres styles 		*/
+#preslist {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 400px;
+}
+
+#preslist li {
+	display: block;
+	margin: 0 0 5px 0;
+	padding: 0;
+	height: auto;
+}
+
+#preslist .presPic  {
+	display: block;
+	float:left;
+	width: 100px;
+	clear: none;
+}
+
+#preslist .presDeets  {
+	display: block;
+	float: left;
+	width: 300px;
+}
+
+#preslist .name {
+	display: block;
+	font-size: 1.3em;
+	vertical-align: top;
+	margin: 0 10px;
+}
+
+#preslist p {
+	font-size: .9em;
+	display: block;
+	margin: 0 10px 10px 10px;
+}
+
+#preslist p.reknown {
+	font-style: italic;
+}
+
+#preslist a {
+	color: #555;
+}
+
+/*			utilities 			*/
+.clearfix {
+ 	overflow: auto;
+}
+
+.fullwidth {
+	width:100%;
+}
+
